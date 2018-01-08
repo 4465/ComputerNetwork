@@ -37,6 +37,7 @@ void CreatGraph(Graphmtx &G, char V[], int n, RowColWeight E[], int e)
 	for (int k = 0; k < e; k++)
 		G.insertEdge(E[k].row, E[k].col, E[k].weight);
 }
+
 ostream& operator << (ostream& out, Graphmtx& G)
 {
 	int i, j;
