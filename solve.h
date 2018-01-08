@@ -33,6 +33,7 @@ void printNext(Graph& G, int v, int dist[], int path[])   //Êä³öÏÂÒ»Ìø
 
 void ShortestPath(Graph& G, int v, int dist[], int path[])
 {
+	cout << "wyf" << endl;
 	int n = G.NumberOfVertices();
 	bool *S = new bool[n];
 	int i, j, k;
